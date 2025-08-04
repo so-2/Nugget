@@ -246,7 +246,7 @@ def load_internal():
     additional_tweaks = {
         "SBBuildNumber": BasicPlistTweak(
             FileLocation.globalPreferences,
-            "UIStatusBarShowBuildVersion"
+            "DEBUG_DEVICE_RESET"
         ),
         "RTL": BasicPlistTweak(
             FileLocation.globalPreferences,
@@ -258,11 +258,11 @@ def load_internal():
         ),
         "SBIconVisibility": BasicPlistTweak(
             FileLocation.globalPreferences,
-            "SBIconVisibility"
+            "kPreferencesShowInternalCellularUsage"
         ),
         "MetalForceHudEnabled": BasicPlistTweak(
             FileLocation.globalPreferences,
-            "MetalForceHudEnabled"
+            "FastDataReset"
         ),
         "iMessageDiagnosticsEnabled": BasicPlistTweak(
             FileLocation.globalPreferences,
